@@ -30,7 +30,7 @@ jobs:
 
       - name: Inizializza Capacitor e Android
         run: |
-          npx cap init "Tinnitus Sim" "com.tinnitus-simulators.gioco" --web-dir www
+          npx cap init "Tinnitus Sim" "com.tinnitus.gioco" --web-dir www
           npx cap add android
           npx cap copy android
 
